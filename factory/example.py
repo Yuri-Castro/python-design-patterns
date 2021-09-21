@@ -159,9 +159,6 @@ def main(fac: ExporterFactory) -> None:
 
     video_exporter = fac.get_video_exporter()
     audio_exporter = fac.get_audio_exporter()
-    video_exporter: VideoExporter
-    audio_exporter: AudioExporter
-
     video_exporter.prepare_export("placeholder_for_video_data")
     audio_exporter.prepare_export("placeholder_for_audio_data")
 
